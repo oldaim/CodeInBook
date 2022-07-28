@@ -1,4 +1,6 @@
-package javaInAction.lamda;
+package javaInAction.chapter3;
+
+import javaInAction.chapter2.Color;
 
 public class Apple {
 
@@ -11,11 +13,7 @@ public class Apple {
         this.color = color;
     }
 
-    public Color getColor() {
-        return this.color;
-    }
-
     public int getWeight() {
-        return this.weight;
+        return weight;
     }
 }

@@ -1,4 +1,4 @@
-package javaInAction.lamda;
+package javaInAction.chapter2;
 
 public class AppleColorPredicate implements ApplePredicate{
     @Override

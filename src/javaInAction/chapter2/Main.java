@@ -1,11 +1,11 @@
-package javaInAction.lamda;
+package javaInAction.chapter2;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import static javaInAction.lamda.Color.GREEN;
-import static javaInAction.lamda.Color.RED;
+import static javaInAction.chapter2.Color.GREEN;
+import static javaInAction.chapter2.Color.RED;
 
 public class Main {
 
