@@ -1,4 +1,4 @@
-package org.example.javaInAction.chapter7;
+package org.example.javaInAction.chapter7.Parallel;
 
 import java.util.stream.LongStream;
 

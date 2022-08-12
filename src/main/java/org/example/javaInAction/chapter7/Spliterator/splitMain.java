@@ -1,0 +1,24 @@
+package org.example.javaInAction.chapter7.Spliterator;
+
+public class splitMain {
+
+    public static int countWordsIteratively(String s){
+        int counter = 0;
+        boolean lastSpace = true;
+        for (char c : s.toCharArray()){
+            if(Character.isWhitespace(c)){
+                lastSpace = true;
+            }
+            else{
+                if(lastSpace) counter++;
+                lastSpace = false;
+            }
+        }
+
+        return counter;
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
